@@ -1,9 +1,8 @@
-package Polymorphism.Overriding;
+package Polymorphism;
 
 import Common.BaseTest;
-import Polymorphism.DemoOverloading;
 
-public class DemoGhide extends BaseTest {
+public class DemoOverriding extends BaseTest {
     public void createBrowser(){
         System.out.println("Run Chrome");
         System.out.println("Class con");
@@ -14,7 +13,7 @@ public class DemoGhide extends BaseTest {
         createBrowser();
     }
     public static void main(String[] args) {
-        DemoGhide ghide = new DemoGhide();
+        DemoOverriding ghide = new DemoOverriding();
         ghide.createBrowser();
     }
 }
