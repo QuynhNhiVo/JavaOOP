@@ -5,9 +5,12 @@ public class Employee extends Company{
         super(companyName, initYear, address, employeeTotal, businessArea, CEO);
     }
     public void showInfo(){
-        System.out.println("Class Employee (ham trung ham class cha)");
+        System.out.println("Class Employee (trùng ham class cha)");
         super.showInfo();//Goi tu class Company
     }
+//    public void infoCompany(){
+//        showInfo();
+//    }
 
     public static void main(String[] args) {
         Employee employee = new Employee("Viettel", "1950", "Ha Noi", 2415, "Technology", "CEO" );
